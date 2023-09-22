@@ -16,7 +16,7 @@ Assignment branch naming rules:
   assignment_part_1
 ```
 
-2. Modify the root `README.md`. Just fill your name into the doc.
+2. Modify `/personal-assignment/workspace/README.md`. Just fill your name into the doc.
 3. Git add and commit, then push **current assignment branch** to your repository.
 4. Go to github website and make a **pull request** from this branch to `[your_name]_develope` of the `upstream repository`. At this point, you have successfully submitted your assignment.
 ![github pr](https://i.imgur.com/T1lDixj.png)
