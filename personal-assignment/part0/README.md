@@ -4,11 +4,10 @@
 1. **Fork** this repository **Code-Your-Stage-Assignment** to your GitHub account.
 2. You will get a forked repository in your GitHub account. We call the repository in AppWorks School **upstream repository**, and the repository in your account **forked repository**.
 3. Clone your forked repository from GitHub to your local machine.
-4. Create a new branch named **develop** and **pull remote develop branch** to your local machine
 
 ## Assignment Introduction
 
-1. Every time before you start a new assignment, please create a new **branch** from the **develop** branch in your local machine with the following rules and complete the assignment on that branch.
+1. Every time before you start a new assignment, please create a new **branch** in your local machine with the following rules and complete the assignment on that branch.
 
 ```
 Assignment branch naming rules:
