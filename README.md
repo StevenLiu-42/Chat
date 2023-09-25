@@ -1,9 +1,8 @@
 # Announcement
 
 ## Personal Assignment
-1. First, navigate to the `/personal-assignment/part0` directory in this repo. You will find an assignment guiding you through the process of submitting a **Pull Request (PR)**, which is the method for turning in your personal assignment.
-2. Please use this weekend to familiarize yourself with the content of **Code-Your-Stage-Backend-Workshop**.
-3. On next Monday (9/25), students will receive instructions and the codebase for `/personal-assignment/part1`. You can follow the steps to complete your personal assignment for this course. By doing so, you will have completed the foundational exercises for this class.
+First, navigate to the `/personal-assignment/part0` directory in this repo. You will find an assignment guiding you through the process of submitting a **Pull Request (PR)**, which is the method for turning in your personal assignment.  
+After submitting the part0 assignment, you will receive the tutorial and instructions for part1 in the comments section of the Pull Request. Once you submit part1, you will then receive the codebase for part2.
   
 The deadline for submitting your PR is **10/4 (Wednesday) by 23:59**. It's recommended to submit early so that the instructor can provide feedback in a timely manner if there are any issues.
 
