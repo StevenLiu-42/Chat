@@ -4,7 +4,7 @@
 1. First, run both the frontend and backend services simultaneously. They should each occupy different ports.
 2. Mimic the method used in the remote assignments by using the useSWRFetch function. The API URL will look something like http://localhost:[port_name]/getData.
   
-This time, no bugs have been left for you to fix! Just go ahead and complete it, turning it into a fully functional service. After finishing, just send a PR. The branch name is `assignment_part_2`.
+This time, no bugs have been left for you to fix! Just go ahead and complete it, turning it into a fully functional service. Please put your code into `/workspace/frontend`. After finishing, just send a PR. The branch name is `assignment_part_2`. 
 
 
 ## Material Tailwind
