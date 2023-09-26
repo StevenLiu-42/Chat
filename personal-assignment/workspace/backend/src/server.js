@@ -1,6 +1,8 @@
 const express = require('express')
 const path = require('path')
 
+const mongoose = require('mongoose')
+
 require('dotenv').config()
 
 const api = require('./api')
@@ -9,9 +11,17 @@ const uri = process.env.MONGO_URI
 const options = {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
-	dbName: 'demo',
 }
 
+// 連接到 MongoDB
+mongoose
+	.connect(uri, options)
+	.then(() => {
+		console.log('MongoDB is connected')
+	})
+	.catch((err) => {
+		console.log(err)
+	})
 const app = express()
 
 const PORT = 3000
