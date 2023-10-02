@@ -18,12 +18,12 @@ router.post('/users/:userId/sessions', async (req, res) => {
 
   
 	  // Get the session data from the request body
-	//   const { user, title, messages } = req.body;
+	  const { user, title, messages } = req.body;
   
 	  // Validate that required data is provided
-	//   if (!user || !title || !messages) {
-	// 	return res.status(400).json({ error: 'User, title, and messages are required' });
-	//   }
+	  if (!user || !title || !messages) {
+		return res.status(400).json({ error: 'User, title, and messages are required' });
+	  }
   
 	  // Create a new session
 	  const newSession = new Sessions({
