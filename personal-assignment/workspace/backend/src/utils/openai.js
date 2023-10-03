@@ -19,6 +19,7 @@ const openAIChat = async (messages) => {
 			max_tokens: 80,
             temperature: 0.9,
 		})
+		console.log(messages,completion.choices[0])
 		return completion.choices[0]
 	}
 }
