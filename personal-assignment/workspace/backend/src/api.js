@@ -55,7 +55,6 @@ router.get('/session/:sessionId', async (req, res) => {
 		return res.status(400).json({ error: 'Session ID is required' });
 	}  
 	try {
-		console.log(sessionId)
 	  const session = await Sessions.find({ _id:sessionId });
 	  res.status(200).json(session);
 	} catch (error) {
@@ -76,7 +75,7 @@ router.delete('/session/:sessionId', async (req, res) => {
 	  return res.status(400).json({ error: 'Session ID is required' });
 	}
 	try {
-		const session = await Sessions.deleteOne({ _id:sessionId });
+		const session = await Sessions.findByIdAndDelete({ _id:sessionId });
 	  res.status(200).json({ message: 'Session deleted' });
 	} catch (error) {
 		errorType = error.path
