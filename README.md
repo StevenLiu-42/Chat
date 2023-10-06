@@ -1,5 +1,9 @@
 # Announcement
 
+## Team Project
+Put your proposal [here](https://docs.google.com/presentation/d/1fjOVhujQ8HyT6cVExjDIC_rxrDReS5dOHfThSwl0DdI/edit?usp=sharing).  
+You can use this [codebase(frontend)](https://github.com/AppWorks-School-Materials/Code-Your-Stage-Front-End).  
+
 ## Personal Assignment
 First, navigate to the `/personal-assignment/part0` directory in this repo. You will find an assignment guiding you through the process of submitting a **Pull Request (PR)**, which is the method for turning in your personal assignment.  
 After submitting the part0 assignment, you will receive the tutorial and instructions for part1 in the comments section of the Pull Request. Once you submit part1, you will then receive the codebase for part2.
